@@ -129,17 +129,35 @@ a{
 /* Hero */
 .hero{
     max-width: 140rem;
+    height: 30rem;
     margin: 3rem auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-image: url(../img/heroimg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .hero h2{
-    font-size: 2.8rem;
+    color: var(--white);
+    font-size: 3rem;
     margin: 0;
 }
+
+.hero p{
+    color: var(--white);
+    font-size: 2rem;
+}
+
+.hero h2,
+.hero p{
+    text-shadow: 4px 3px 4px rgba(0, 0, 0, 0.66),-7px 1px 9px rgba(86, 36, 76, 0.71);
+    text-align: center;
+}
+
 
 .herowrap__separator{
     max-width: 140rem;
@@ -152,8 +170,8 @@ a{
 .wrapper{
     max-width: 140rem;
     margin: 3rem auto;
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
     gap: 4rem;
 }
 
