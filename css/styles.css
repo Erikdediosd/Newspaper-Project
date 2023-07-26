@@ -126,11 +126,32 @@ a{
 .nav__button:hover{
     background-color: var(--secondary);
 }
+/* Hero */
+.hero{
+    max-width: 140rem;
+    margin: 3rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h2{
+    font-size: 2.8rem;
+    margin: 0;
+}
+
+.herowrap__separator{
+    max-width: 140rem;
+    height: 0.5rem;
+    background-color: var(--secondary);
+    margin: 0 auto;
+}
 
 /* Main */
 .wrapper{
     max-width: 140rem;
-    margin: 3rem;
+    margin: 3rem auto;
     display: flex;
     justify-content: space-between;
     gap: 4rem;
